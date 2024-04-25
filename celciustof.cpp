@@ -8,7 +8,7 @@ using namespace std;
 */
 void f();
 int main(){
-    //(0 °C × 9/5) + 32
+    //(0 Â°C Ã— 9/5) + 32
     //ej 1 celsius a f
     /*float celsius;
     cout << "Ingrese la temperatura en celsius: \n";
@@ -69,13 +69,6 @@ int main(){
     }else{
         cout<<"No es primo\n";
     }
-    /*for(int i = 1; i<= numero;i++){
-        if(numero % i == 0 && i != 1 && i!= numero){
-            cout<<i<<endl;
-            es_primo = false;
-            break;
-        }
-    }*/
 
     f();
     return 0;
